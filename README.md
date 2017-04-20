@@ -16,10 +16,16 @@ The following modifications have been made to the source code:
     * db, dw, ds -> defb, defw, defs
     * equ -> defc
     * String constants now double quoted
-* A very old address has been removed
+    * MODULE directive added
+* Help pages embedded into source code
+    * A very old address has been removed
 
+Otherwise, the source is as written (6 character labels, < 40 characters per line)
 
-# Lost source code
+# Missing source code
+
+This set of tools are related - a lot of the code is shared between them. As things
+stand two tools are missing from the repository.
 
 ## Transfer (+3 -> +D discs on +3 B: drive).
 
@@ -31,4 +37,7 @@ code that's probably 5 versions behind the last release.
 Was a screen resident program to read/write MSDOS discs on a +3 B: drive.
 
 I have some versions of the source, but not verified that a loadable program can be made.
+
+The source code for Slowdos 2.x which extended +3 BASIC to allow access to MSDOS discs is
+located here: http://github.com/suborb/slowdos
 
